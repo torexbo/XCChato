@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microblogging Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Microblogging Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="post-form">
+      <h2>Create a new post</h2>
+      <form id="create-post-form">
+        <textarea id="post-content" placeholder="Write your post here..."></textarea>
+        <button type="submit">Post</button>
+      </form>
+    </section>
+    <section id="post-list">
+      <h2>Recent Posts</h2>
+      <div id="posts"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Microblogging Platform</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
